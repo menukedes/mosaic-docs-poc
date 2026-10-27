@@ -22,6 +22,8 @@ Nothing reaches the live site without an approved pull request.
 | Brand colours | `src/styles/mosaic.css` |
 | Hosting settings | `wrangler.jsonc` |
 | Writing rules | `CONTENT-RULES.md` |
+| Page template | `templates/task-page.md` |
+| Illustrations | `src/assets/illustrations/` |
 
 ## Run it locally (optional)
 
