@@ -1,0 +1,36 @@
+---
+title: Mosaic Help Center
+description: Guides for Mosaic merchants and dispensary staff.
+template: splash
+hero:
+  tagline: Set up, configure and run your Mosaic online store, POS connection, payments and loyalty program.
+  actions:
+    - text: Get started
+      link: /getting-started/overview/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+:::caution[Proof of concept]
+This site is a test of a new documentation platform. Pages are placeholders until reviewed content is added.
+:::
+
+<CardGrid>
+  <Card title="Admin Portal" icon="setting">
+    Configure your store, products, offers and loyalty from the Admin Portal.
+    [Browse Admin Portal guides](/admin-portal/overview/)
+  </Card>
+  <Card title="Online storefront" icon="laptop">
+    See how your Admin Portal settings change what shoppers see online.
+    [Browse storefront guides](/storefront/overview/)
+  </Card>
+  <Card title="POS integrations" icon="puzzle">
+    Set up your point-of-sale system to work smoothly with Mosaic.
+    [Browse POS guides](/pos-integrations/overview/)
+  </Card>
+  <Card title="Settings managed by Mosaic" icon="information">
+    Options the Mosaic team can turn on for your store on request.
+    [See what's available](/mosaic-managed-settings/overview/)
+  </Card>
+</CardGrid>

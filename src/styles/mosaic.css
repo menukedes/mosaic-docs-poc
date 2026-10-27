@@ -1,0 +1,12 @@
+/* Mosaic brand greens. Starlight's accent colour drives links, highlights and buttons. */
+:root {
+  --sl-color-accent-low: #d9efe6;
+  --sl-color-accent: #025e43;
+  --sl-color-accent-high: #013b2a;
+}
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #0b3326;
+  --sl-color-accent: #3fae84;
+  --sl-color-accent-high: #c4ead9;
+}
+.site-title img { max-height: 1.8rem; width: auto; }
