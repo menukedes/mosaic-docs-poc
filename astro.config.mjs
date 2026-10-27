@@ -40,17 +40,12 @@ export default defineConfig({
       sidebar: [
         // Rule: a section is listed here only once it has at least one real page (see CONTENT-RULES.md).
         {
-          label: 'Admin Portal',
+          label: 'Marketing',
           items: [
-            {
-              label: 'Marketing',
-              items: [
-                { label: 'Media banners', items: [{ autogenerate: { directory: 'admin-portal/marketing/media-banners' } }] },
-                { label: 'Offers', items: [{ autogenerate: { directory: 'admin-portal/marketing/offers' } }] },
-                { label: 'Segments', items: [{ autogenerate: { directory: 'admin-portal/marketing/segments' } }] },
-                { label: 'Messaging', items: [{ autogenerate: { directory: 'admin-portal/marketing/messaging' } }] },
-              ],
-            },
+            { label: 'Media banners', items: [{ autogenerate: { directory: 'marketing/media-banners' } }] },
+            { label: 'Offers', items: [{ autogenerate: { directory: 'marketing/offers' } }] },
+            { label: 'Segments', items: [{ autogenerate: { directory: 'marketing/segments' } }] },
+            { label: 'Messaging', items: [{ autogenerate: { directory: 'marketing/messaging' } }] },
           ],
         },
       ],

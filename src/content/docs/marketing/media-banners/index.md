@@ -18,13 +18,13 @@ Dispensary owners and managers who run promotions or look after the online store
 
 Media banners appear on your storefront landing page between your product category rows. You choose their order, so a banner can sit at the top of the page or further down.
 
-![A storefront landing page with the store header at the top, followed by a product category row, an image media banner, another product category row and a video media banner.](../../../../../assets/illustrations/media-banners-landing-page.svg)
+![A storefront landing page with the store header at the top, followed by a product category row, an image media banner, another product category row and a video media banner.](../../../../assets/illustrations/media-banners-landing-page.svg)
 
 Shoppers see a banner only while it is active and, if you scheduled it, only on the dates, days and times you chose. When a banner has a link, selecting it opens that page in a new browser tab. On in-store kiosks, banners are shown but are not clickable, so shoppers stay in your store.
 
 ## Types of media banner
 
-![Three banner types side by side: a single image, an image carousel with arrows and slide dots, and a video with a play button.](../../../../../assets/illustrations/media-banner-types.svg)
+![Three banner types side by side: a single image, an image carousel with arrows and slide dots, and a video with a play button.](../../../../assets/illustrations/media-banner-types.svg)
 
 | Type | Best for | Links |
 |---|---|---|

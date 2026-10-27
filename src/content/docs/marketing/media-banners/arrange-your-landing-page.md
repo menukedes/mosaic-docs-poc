@@ -20,7 +20,7 @@ Your landing page is made up of product category rows and media banners. You dec
 4. To show or hide an item on the landing page, tick or untick the box next to it.
 5. Save your changes.
 
-![On the left, the reorder panel lists Category: Flower, Media banner: Weekend special, Category: Edibles and an unticked Media banner: Holiday hours, each with a drag handle and checkbox. On the right, the landing page shows Flower, then the Weekend special banner, then Edibles. The unticked banner doesn't appear.](../../../../../assets/illustrations/media-banners-reorder.svg)
+![On the left, the reorder panel lists Category: Flower, Media banner: Weekend special, Category: Edibles and an unticked Media banner: Holiday hours, each with a drag handle and checkbox. On the right, the landing page shows Flower, then the Weekend special banner, then Edibles. The unticked banner doesn't appear.](../../../../assets/illustrations/media-banners-reorder.svg)
 
 ## What to expect
 

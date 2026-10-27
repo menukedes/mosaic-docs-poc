@@ -16,7 +16,7 @@ Dispensary owners and managers who plan promotions. You need access to the **Mar
 
 ## What shoppers see
 
-![Three storefront views. The Specials page lists offer cards, including one marked Registered users only and a POS offer card. A product card shows a 1 Offer tag and a $32.00 price with $40.00 struck through. The cart shows a discount applied to an item, an Apply Offers & Rewards button and an Add Promo Code option.](../../../../../assets/illustrations/offers-on-the-storefront.svg)
+![Three storefront views. The Specials page lists offer cards, including one marked Registered users only and a POS offer card. A product card shows a 1 Offer tag and a $32.00 price with $40.00 struck through. The cart shows a discount applied to an item, an Apply Offers & Rewards button and an Add Promo Code option.](../../../../assets/illustrations/offers-on-the-storefront.svg)
 
 - **Specials page**: every current offer appears as a card. Offers for registered shoppers only are labeled as such.
 - **Product cards and product pages**: products with an offer show an offer tag and the discounted price next to the original, struck-through price.
