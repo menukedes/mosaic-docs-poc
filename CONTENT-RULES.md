@@ -44,32 +44,47 @@ developers.
 
 ## 4. Site structure and navigation
 
-- Sections mirror where things live for the reader:
+The site is organized by **feature**: the things merchants run, such as marketing or loyalty. It
+is not organized by Admin Portal menu. Each feature explains how it works for shoppers and
+staff, then how to set it up and manage it in the Admin Portal.
+
+- Top-level sections, in sidebar order (add one only when it has a real page, see below):
   - `getting-started/`: orientation for new merchants.
-  - `admin-portal/<menu-area>/<feature>/`: tasks done in the Admin Portal, grouped by the
-    Admin Portal menu (for example `admin-portal/marketing/media-banners/`).
-  - `storefront/`: what shoppers see and how settings change it.
+  - `marketing/<feature>/`: media banners, offers, segments, messaging.
+  - `loyalty/`: your store's own loyalty program (points, loyalty tiers, rewards).
+  - `customers/`: shopper accounts and records.
+  - `orders/`: online orders, from placing to pickup or delivery.
+  - `store-settings/`: store details and how the storefront looks.
   - `pos-integrations/<pos-name>/`: setting up a POS to work with Mosaic.
-  - `payments-and-loyalty/`: Mosaic Pay & Rewards and loyalty.
-  - `mosaic-managed-settings/`: options only the Mosaic team can change, written as "ask Mosaic
-    to turn this on".
+  - `mosaic-pay-and-rewards/`: Mosaic Pay & Rewards. This program is run by Mosaic, so keep
+    it separate from `loyalty/`, and link between the two rather than mixing them.
+- A section with several sub-features (Marketing) has one subfolder per feature. A section that
+  is one feature (Loyalty) keeps its pages directly in the section folder.
+- Every overview page says where the feature lives in the Admin Portal, for example "You'll find
+  it in the Admin Portal under **Marketing** → **Offers**."
+- Settings only the Mosaic team can change are covered on the feature's own pages, worded as
+  "Ask the Mosaic support team to ...". There is no separate section for them.
 - **No empty sections.** A section appears in the sidebar (`astro.config.mjs`) and on the home
   page only once it has at least one real page. Never add "coming soon" pages.
 - When a section gets its first page, add it to the sidebar and add a card for it on the home page
   in the same pull request.
-- Organise by feature, not by release or ticket. Update an existing page when one covers the
+- A new top-level section not listed above needs the reviewer's agreement first.
+- Organize by feature, not by release or ticket. Update an existing page when one covers the
   topic; add a page only when none does.
 - File and folder names: lowercase, words separated by dashes, named after the task
-  (`create-a-banner.md`, not `banner-creation-v2.md`).
+  (`create-a-reward.md`, not `reward-creation-v2.md`).
 - Set `sidebar.order` in the front matter so pages appear in a logical order.
 
 ## 5. Page types
 
 Each feature gets a small set of pages, in this order:
 
-1. **Overview** (`index.md` in the feature folder): what the feature is, who it's for, what
-   shoppers see, key terms, and links to the task pages. Includes an illustration of where it
-   appears and, if useful, a lifecycle diagram.
+1. **Overview** (`index.md` in the feature folder): what the feature is, who it's for, how it
+   works for shoppers and staff (online and in store, where relevant), where it lives in the
+   Admin Portal, key terms, and links to the task pages. Includes an illustration of where it
+   appears and, if useful, a flow or lifecycle diagram. For a feature with a lot to explain
+   (such as loyalty), the "how it works" part can be its own page, placed right after the
+   overview.
 2. **Task pages** (one per task, titled with a verb: "Create a media banner", "Schedule a media
    banner"): numbered steps, then "What to expect", then examples.
 3. **Troubleshooting and FAQ**: symptoms in the reader's words, each with the likely cause and the
@@ -129,6 +144,12 @@ Use these terms exactly.
 | kiosk | The in-store self-service device running the storefront | tablet mode |
 | media banner | An image, image carousel or video shown on the landing page | marketing banner, ad, carousel widget |
 | Mosaic Pay & Rewards | Mosaic's wallet and rewards product | Independent eWallet, IEW |
+| loyalty program | Your store's own points program, set up in the Admin Portal | rewards program (except to quote a label) |
+| points | What shoppers earn by spending and spend on rewards | credits, coins |
+| loyalty tier | A level shoppers reach by earning points (the Admin Portal labels these **Levels**) | rank, status |
+| reward | Something shoppers get in exchange for points | prize, redemption item |
+| offer | A discount set up under **Marketing** → **Offers**, no points needed | deal, coupon (except "promo code") |
+| segment | A group of shoppers chosen by their activity or profile | audience list, cohort |
 
 When the product's own label differs from the glossary term, use the label for the click and the
 glossary term in the prose (for example: "Select the store in the **Location** field").
