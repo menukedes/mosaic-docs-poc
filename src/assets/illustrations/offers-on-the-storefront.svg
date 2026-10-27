@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect width="820" height="360" fill="#ffffff"/>
+  <!-- Specials page -->
+  <text x="30" y="30" font-size="15" font-weight="700" fill="#111827">Specials page</text>
+  <rect x="30" y="44" width="240" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <g>
+    <rect x="44" y="58" width="212" height="70" rx="8" fill="#D9EFE6" stroke="#025E43"/>
+    <rect x="56" y="70" width="52" height="46" rx="6" fill="#3FAE84"/>
+    <text x="120" y="86" font-size="12" font-weight="700" fill="#025E43">20% off Edibles</text>
+    <text x="120" y="104" font-size="11" fill="#374151">All shoppers</text>
+    <rect x="120" y="110" width="56" height="12" rx="6" fill="#025E43"/><text x="148" y="120" font-size="8" text-anchor="middle" fill="#fff">Shop Now</text>
+  </g>
+  <g>
+    <rect x="44" y="138" width="212" height="70" rx="8" fill="#D9EFE6" stroke="#025E43"/>
+    <rect x="56" y="150" width="52" height="46" rx="6" fill="#3FAE84"/>
+    <text x="120" y="166" font-size="12" font-weight="700" fill="#025E43">$10 off over $100</text>
+    <text x="120" y="184" font-size="11" fill="#374151">Registered users only</text>
+  </g>
+  <g>
+    <rect x="44" y="218" width="212" height="62" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <rect x="56" y="228" width="52" height="42" rx="6" fill="#9CA3AF"/>
+    <text x="120" y="246" font-size="12" font-weight="700" fill="#374151">In-store deal</text>
+    <text x="120" y="264" font-size="11" fill="#374151">POS offer card</text>
+  </g>
+  <!-- Product card -->
+  <text x="300" y="30" font-size="15" font-weight="700" fill="#111827">Product cards and pages</text>
+  <rect x="300" y="44" width="220" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="316" y="60" width="188" height="120" rx="8" fill="#F3F4F6"/>
+  <rect x="324" y="68" width="64" height="20" rx="10" fill="#025E43"/><text x="356" y="82" font-size="11" text-anchor="middle" fill="#fff">1 Offer</text>
+  <rect x="316" y="192" width="150" height="12" rx="3" fill="#9CA3AF"/>
+  <text x="316" y="232" font-size="18" font-weight="700" fill="#025E43">$32.00</text>
+  <text x="390" y="232" font-size="14" fill="#9CA3AF" text-decoration="line-through">$40.00</text>
+  <line x1="390" y1="227" x2="438" y2="227" stroke="#9CA3AF" stroke-width="1.5"/>
+  <text x="316" y="262" font-size="11" fill="#374151">Offer tag and strikethrough</text>
+  <text x="316" y="278" font-size="11" fill="#374151">price show the saving.</text>
+  <!-- Cart -->
+  <text x="550" y="30" font-size="15" font-weight="700" fill="#111827">Cart</text>
+  <rect x="550" y="44" width="240" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="564" y="58" width="212" height="44" rx="6" fill="#F3F4F6"/>
+  <text x="576" y="78" font-size="11" fill="#374151">Gummies x2</text><text x="764" y="78" font-size="11" text-anchor="end" fill="#025E43">-$8.00</text>
+  <text x="576" y="94" font-size="10" fill="#6B7280">20% off Edibles applied</text>
+  <rect x="564" y="112" width="212" height="34" rx="6" fill="#D9EFE6" stroke="#025E43"/>
+  <text x="670" y="134" font-size="12" font-weight="700" text-anchor="middle" fill="#025E43">Apply Offers &amp; Rewards</text>
+  <rect x="564" y="156" width="212" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF" stroke-dasharray="4 3"/>
+  <text x="670" y="176" font-size="12" text-anchor="middle" fill="#374151">+ Add Promo Code</text>
+  <line x1="564" y1="204" x2="776" y2="204" stroke="#E5E7EB"/>
+  <text x="576" y="226" font-size="12" fill="#374151">Subtotal</text><text x="764" y="226" font-size="12" text-anchor="end" fill="#374151">$32.00</text>
+  <text x="576" y="248" font-size="12" font-weight="700" fill="#111827">Total</text><text x="764" y="248" font-size="12" font-weight="700" text-anchor="end" fill="#111827">$32.00</text>
+  <text x="670" y="280" font-size="11" text-anchor="middle" fill="#374151">Some offers apply automatically,</text>
+  <text x="400" y="330" font-size="12" text-anchor="middle" fill="#374151">Illustration only. Labels and layout on your storefront may differ slightly.</text>
+  <text x="670" y="294" font-size="11" text-anchor="middle" fill="#374151">others are chosen here.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect width="820" height="420" fill="#ffffff"/>
+  <text x="30" y="30" font-size="15" font-weight="700" fill="#111827">Email</text>
+  <text x="520" y="30" font-size="15" font-weight="700" fill="#111827">Push notification</text>
+  <!-- email -->
+  <rect x="30" y="44" width="440" height="356" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="30" y="44" width="440" height="40" rx="10" fill="#F3F4F6"/><rect x="30" y="70" width="440" height="14" fill="#F3F4F6"/>
+  <text x="46" y="69" font-size="13" fill="#374151">Subject: Your weekend deal is here</text>
+  <rect x="50" y="98" width="400" height="56" rx="6" fill="#025E43"/>
+  <rect x="66" y="116" width="90" height="20" rx="4" fill="#3FAE84"/>
+  <text x="300" y="132" font-size="12" fill="#D9EFE6">Template header</text>
+  <rect x="50" y="166" width="260" height="16" rx="4" fill="#111827" opacity="0.85"/>
+  <text x="330" y="179" font-size="12" fill="#6B7280">Title</text>
+  <rect x="50" y="196" width="400" height="90" rx="6" fill="#D9EFE6"/>
+  <rect x="66" y="210" width="300" height="10" rx="3" fill="#3FAE84"/>
+  <rect x="66" y="228" width="340" height="10" rx="3" fill="#3FAE84"/>
+  <rect x="66" y="246" width="250" height="10" rx="3" fill="#3FAE84"/>
+  <rect x="66" y="262" width="110" height="16" rx="8" fill="#025E43"/>
+  <text x="404" y="276" font-size="12" text-anchor="end" fill="#025E43">Body content</text>
+  <rect x="50" y="300" width="400" height="44" rx="6" fill="#F3F4F6"/>
+  <text x="250" y="320" font-size="12" text-anchor="middle" fill="#6B7280">Store details and</text>
+  <text x="250" y="336" font-size="12" text-anchor="middle" fill="#025E43" text-decoration="underline">Unsubscribe</text>
+  <text x="250" y="380" font-size="12" text-anchor="middle" fill="#374151">The template sets the look. You add the title and body.</text>
+  <!-- phone -->
+  <rect x="560" y="44" width="200" height="356" rx="26" fill="#111827"/>
+  <rect x="572" y="62" width="176" height="320" rx="16" fill="#F3F4F6"/>
+  <text x="660" y="100" font-size="26" font-weight="700" text-anchor="middle" fill="#374151">4:05</text>
+  <rect x="582" y="124" width="156" height="72" rx="12" fill="#ffffff" stroke="#E5E7EB"/>
+  <rect x="592" y="134" width="18" height="18" rx="4" fill="#025E43"/>
+  <text x="618" y="147" font-size="11" fill="#6B7280">Your store</text>
+  <text x="592" y="168" font-size="12" font-weight="700" fill="#111827">Happy hour starts now</text>
+  <text x="592" y="185" font-size="11" fill="#374151">20% off until 7:00 PM</text>
+  <text x="660" y="222" font-size="11" text-anchor="middle" fill="#374151">Subject and body,</text>
+  <text x="660" y="238" font-size="11" text-anchor="middle" fill="#374151">up to 50 characters each.</text>
+  <text x="660" y="262" font-size="11" text-anchor="middle" fill="#374151">Tapping opens the page</text>
+  <text x="660" y="278" font-size="11" text-anchor="middle" fill="#374151">you chose.</text>
+</svg>
