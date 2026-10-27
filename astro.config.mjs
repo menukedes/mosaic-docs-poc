@@ -46,6 +46,9 @@ export default defineConfig({
               label: 'Marketing',
               items: [
                 { label: 'Media banners', items: [{ autogenerate: { directory: 'admin-portal/marketing/media-banners' } }] },
+                { label: 'Offers', items: [{ autogenerate: { directory: 'admin-portal/marketing/offers' } }] },
+                { label: 'Segments', items: [{ autogenerate: { directory: 'admin-portal/marketing/segments' } }] },
+                { label: 'Messaging', items: [{ autogenerate: { directory: 'admin-portal/marketing/messaging' } }] },
               ],
             },
           ],
