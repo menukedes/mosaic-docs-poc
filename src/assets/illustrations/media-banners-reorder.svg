@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect width="820" height="330" fill="#ffffff"/>
+  <text x="30" y="30" font-size="15" font-weight="700" fill="#111827">In the Admin Portal: the reorder panel</text>
+  <text x="470" y="30" font-size="15" font-weight="700" fill="#111827">On the storefront: the landing page</text>
+  <!-- panel rows -->
+  <g font-size="14" fill="#111827">
+    <g transform="translate(30,50)">
+      <rect width="360" height="48" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+      <g fill="#9CA3AF"><circle cx="18" cy="18" r="2.5"/><circle cx="26" cy="18" r="2.5"/><circle cx="18" cy="26" r="2.5"/><circle cx="26" cy="26" r="2.5"/><circle cx="18" cy="34" r="2.5"/><circle cx="26" cy="34" r="2.5"/></g>
+      <rect x="44" y="14" width="20" height="20" rx="4" fill="#025E43"/><path d="M48 24 L52 28 L60 19" stroke="#fff" stroke-width="2.5" fill="none"/>
+      <text x="76" y="29">Category: Flower</text>
+    </g>
+    <g transform="translate(30,106)">
+      <rect width="360" height="48" rx="6" fill="#D9EFE6" stroke="#025E43" stroke-width="2"/>
+      <g fill="#9CA3AF"><circle cx="18" cy="18" r="2.5"/><circle cx="26" cy="18" r="2.5"/><circle cx="18" cy="26" r="2.5"/><circle cx="26" cy="26" r="2.5"/><circle cx="18" cy="34" r="2.5"/><circle cx="26" cy="34" r="2.5"/></g>
+      <rect x="44" y="14" width="20" height="20" rx="4" fill="#025E43"/><path d="M48 24 L52 28 L60 19" stroke="#fff" stroke-width="2.5" fill="none"/>
+      <text x="76" y="29">Media banner: Weekend special</text>
+    </g>
+    <g transform="translate(30,162)">
+      <rect width="360" height="48" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+      <g fill="#9CA3AF"><circle cx="18" cy="18" r="2.5"/><circle cx="26" cy="18" r="2.5"/><circle cx="18" cy="26" r="2.5"/><circle cx="26" cy="26" r="2.5"/><circle cx="18" cy="34" r="2.5"/><circle cx="26" cy="34" r="2.5"/></g>
+      <rect x="44" y="14" width="20" height="20" rx="4" fill="#025E43"/><path d="M48 24 L52 28 L60 19" stroke="#fff" stroke-width="2.5" fill="none"/>
+      <text x="76" y="29">Category: Edibles</text>
+    </g>
+    <g transform="translate(30,218)">
+      <rect width="360" height="48" rx="6" fill="#ffffff" stroke="#E5E7EB" stroke-dasharray="5 4"/>
+      <g fill="#9CA3AF"><circle cx="18" cy="18" r="2.5"/><circle cx="26" cy="18" r="2.5"/><circle cx="18" cy="26" r="2.5"/><circle cx="26" cy="26" r="2.5"/><circle cx="18" cy="34" r="2.5"/><circle cx="26" cy="34" r="2.5"/></g>
+      <rect x="44" y="14" width="20" height="20" rx="4" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+      <text x="76" y="29" fill="#6B7280">Media banner: Holiday hours (hidden)</text>
+    </g>
+  </g>
+  <text x="30" y="292" font-size="13" fill="#374151">Drag the handle to change the order.</text>
+  <text x="30" y="310" font-size="13" fill="#374151">Tick or untick the box to show or hide an item.</text>
+  <!-- arrow -->
+  <path d="M405 170 L450 170" stroke="#3FAE84" stroke-width="3"/><path d="M444 162 L454 170 L444 178" stroke="#3FAE84" stroke-width="3" fill="none"/>
+  <!-- storefront -->
+  <rect x="470" y="50" width="320" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="482" y="62" width="296" height="26" rx="5" fill="#025E43"/>
+  <rect x="482" y="98" width="296" height="52" rx="5" fill="#F3F4F6"/>
+  <text x="494" y="128" font-size="13" fill="#374151">Flower</text>
+  <rect x="482" y="160" width="296" height="62" rx="5" fill="#D9EFE6" stroke="#025E43" stroke-width="2"/>
+  <text x="630" y="196" font-size="13" text-anchor="middle" font-weight="700" fill="#025E43">Weekend special</text>
+  <rect x="482" y="232" width="296" height="52" rx="5" fill="#F3F4F6"/>
+  <text x="494" y="262" font-size="13" fill="#374151">Edibles</text>
+</svg>

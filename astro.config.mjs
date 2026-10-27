@@ -38,13 +38,18 @@ export default defineConfig({
       head: [{ tag: 'meta', attrs: { name: 'robots', content: 'noindex, nofollow' } }],
       plugins: [starlightImageZoom()],
       sidebar: [
-        { label: 'Getting started', items: [{ autogenerate: { directory: 'getting-started' } }] },
-        { label: 'Admin Portal', items: [{ autogenerate: { directory: 'admin-portal' } }] },
-        { label: 'Online storefront', items: [{ autogenerate: { directory: 'storefront' } }] },
-        { label: 'POS integrations', items: [{ autogenerate: { directory: 'pos-integrations' } }] },
-        { label: 'Payments and loyalty', items: [{ autogenerate: { directory: 'payments-and-loyalty' } }] },
-        { label: 'Settings managed by Mosaic', items: [{ autogenerate: { directory: 'mosaic-managed-settings' } }] },
-        { label: 'About these docs', collapsed: true, items: [{ autogenerate: { directory: 'about' } }] },
+        // Rule: a section is listed here only once it has at least one real page (see CONTENT-RULES.md).
+        {
+          label: 'Admin Portal',
+          items: [
+            {
+              label: 'Marketing',
+              items: [
+                { label: 'Media banners', items: [{ autogenerate: { directory: 'admin-portal/marketing/media-banners' } }] },
+              ],
+            },
+          ],
+        },
       ],
     }),
   ],
