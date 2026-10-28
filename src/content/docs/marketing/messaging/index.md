@@ -16,7 +16,7 @@ Dispensary owners and managers who run marketing campaigns. You need access to t
 
 ## What shoppers receive
 
-![On the left, a marketing email with a template header, a title, body content and a footer with an unsubscribe link. On the right, a phone lock screen showing a push notification from the store with a short subject and body.](../../../../../assets/illustrations/messaging-email-and-push.svg)
+![On the left, a marketing email with a template header, a title, body content and a footer with an unsubscribe link. On the right, a phone lock screen showing a push notification from the store with a short subject and body.](../../../../assets/illustrations/messaging-email-and-push.svg)
 
 | Channel | What it looks like | Who receives it |
 |---|---|---|
