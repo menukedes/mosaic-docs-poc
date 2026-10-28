@@ -48,6 +48,7 @@ export default defineConfig({
             { label: 'Messaging', items: [{ autogenerate: { directory: 'marketing/messaging' } }] },
           ],
         },
+        { label: 'Loyalty', items: [{ autogenerate: { directory: 'loyalty' } }] },
       ],
     }),
   ],

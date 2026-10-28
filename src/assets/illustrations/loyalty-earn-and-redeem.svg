@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect width="820" height="360" fill="#ffffff"/>
+  <!-- Loyalty page -->
+  <text x="30" y="30" font-size="15" font-weight="700" fill="#111827">Loyalty page (signed in)</text>
+  <rect x="30" y="44" width="240" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="44" y="58" width="212" height="64" rx="8" fill="#025E43"/>
+  <text x="58" y="80" font-size="11" fill="#D9EFE6">Your points</text>
+  <text x="58" y="106" font-size="22" font-weight="700" fill="#ffffff">420</text>
+  <text x="44" y="144" font-size="12" font-weight="700" fill="#111827">Rewards</text>
+  <g>
+    <rect x="44" y="154" width="212" height="58" rx="8" fill="#D9EFE6" stroke="#025E43"/>
+    <rect x="54" y="164" width="38" height="38" rx="6" fill="#3FAE84"/>
+    <text x="102" y="180" font-size="12" font-weight="700" fill="#025E43">$10 off your order</text>
+    <text x="102" y="198" font-size="11" fill="#374151">400 points</text>
+  </g>
+  <g>
+    <rect x="44" y="222" width="212" height="58" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <rect x="54" y="232" width="38" height="38" rx="6" fill="#9CA3AF"/>
+    <text x="102" y="248" font-size="12" font-weight="700" fill="#374151">Free pre-roll</text>
+    <text x="102" y="266" font-size="11" fill="#374151">600 points</text>
+  </g>
+  <!-- Cart -->
+  <text x="300" y="30" font-size="15" font-weight="700" fill="#111827">Online: in the cart</text>
+  <rect x="300" y="44" width="220" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="314" y="58" width="192" height="34" rx="6" fill="#D9EFE6" stroke="#025E43"/>
+  <text x="410" y="80" font-size="12" font-weight="700" text-anchor="middle" fill="#025E43">Apply Offers &amp; Rewards</text>
+  <rect x="314" y="102" width="192" height="52" rx="6" fill="#ffffff" stroke="#025E43" stroke-width="1.5"/>
+  <circle cx="330" cy="128" r="7" fill="#025E43"/>
+  <text x="344" y="124" font-size="11" font-weight="700" fill="#025E43">$10 off your order</text>
+  <text x="344" y="140" font-size="10" fill="#374151">Uses 400 points</text>
+  <line x1="314" y1="172" x2="506" y2="172" stroke="#E5E7EB"/>
+  <text x="326" y="194" font-size="12" fill="#374151">Subtotal</text><text x="494" y="194" font-size="12" text-anchor="end" fill="#374151">$62.00</text>
+  <text x="326" y="214" font-size="12" fill="#374151">Reward</text><text x="494" y="214" font-size="12" text-anchor="end" fill="#025E43">-$10.00</text>
+  <text x="326" y="236" font-size="12" font-weight="700" fill="#111827">Total</text><text x="494" y="236" font-size="12" font-weight="700" text-anchor="end" fill="#111827">$52.00</text>
+  <text x="410" y="266" font-size="11" text-anchor="middle" fill="#374151">Points for this order are added</text>
+  <text x="410" y="280" font-size="11" text-anchor="middle" fill="#374151">when it's completed.</text>
+  <!-- In store -->
+  <text x="550" y="30" font-size="15" font-weight="700" fill="#111827">In store: at the counter</text>
+  <rect x="550" y="44" width="240" height="250" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-width="2"/>
+  <g font-size="11" fill="#374151">
+    <rect x="566" y="60" width="208" height="40" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <text x="580" y="84">1. Budtender finds the shopper</text>
+    <text x="580" y="96" font-size="10" fill="#6B7280">by phone number or email</text>
+    <rect x="566" y="112" width="208" height="40" rx="8" fill="#D9EFE6" stroke="#025E43"/>
+    <text x="580" y="136" fill="#025E43" font-weight="700">2. Shopper picks a reward</text>
+    <rect x="566" y="164" width="208" height="40" rx="8" fill="#D9EFE6" stroke="#025E43"/>
+    <text x="580" y="188" fill="#025E43" font-weight="700">3. Discount added in the POS</text>
+    <rect x="566" y="216" width="208" height="40" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <text x="580" y="240">4. Sale completes, points update</text>
+  </g>
+  <path d="M670 100 v12 M670 152 v12 M670 204 v12" stroke="#3FAE84" stroke-width="2"/>
+  <text x="670" y="280" font-size="11" text-anchor="middle" fill="#374151">How step 3 works depends on your POS.</text>
+  <text x="410" y="330" font-size="12" text-anchor="middle" fill="#374151">Illustration only. Labels and layout on your storefront may differ slightly.</text>
+</svg>
